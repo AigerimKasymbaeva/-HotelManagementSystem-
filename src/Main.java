@@ -16,11 +16,13 @@ public class Main {
         Guest guest3 = new Guest("Kanykei", "Kasymbaeva");
         Guest guest4 = new Guest("Aiganysh", "Kasymbaeva");
         Guest guest5 = new Guest("Jibek", "Kasymbaeva");
+        Guest guest6 = new Guest("Eldar", "Kasymbaev");
 
         hotel.checkIn(guest1);
         hotel.checkIn(guest2);
         hotel.checkIn(guest3);
         hotel.checkIn(guest4);
         hotel.checkIn(guest5);
+        hotel.checkIn(guest6);
     }
 }
