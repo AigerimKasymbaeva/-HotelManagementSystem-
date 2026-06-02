@@ -11,18 +11,16 @@ public class Main {
 
         Hotel hotel = new Hotel("Hotel #1", List.of(floor1, floor2));
 
-        Guest guest1 = new Guest("Aigerim", "Kasymbaeva");
-        Guest guest2 = new Guest("Darika", "Kasymbaeva");
-        Guest guest3 = new Guest("Kanykei", "Kasymbaeva");
-        Guest guest4 = new Guest("Aiganysh", "Kasymbaeva");
-        Guest guest5 = new Guest("Jibek", "Kasymbaeva");
-        Guest guest6 = new Guest("Eldar", "Kasymbaev");
+        Guest guest1 = new Guest("Jackie", "Jackson");
+        Guest guest2 = new Guest("Tito", "Jackson");
+        Guest guest3 = new Guest("Jermaine", "Jackson");
+        Guest guest4 = new Guest("Marlon", "Jackson");
+        Guest guest5 = new Guest("Michael", "Jackson");
 
         hotel.checkIn(guest1);
         hotel.checkIn(guest2);
         hotel.checkIn(guest3);
         hotel.checkIn(guest4);
         hotel.checkIn(guest5);
-        hotel.checkIn(guest6);
     }
 }

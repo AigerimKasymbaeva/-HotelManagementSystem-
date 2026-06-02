@@ -21,7 +21,7 @@ public class Hotel {
                 return true;
             }
         }
-        System.out.println("Свободных номеров не осталось!");
+        System.out.println("Свободного номера для " + guest.getName() + " " + guest.getSurname() + " не нашлось!");
         return false;
     }
 
